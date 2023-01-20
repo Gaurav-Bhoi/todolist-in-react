@@ -1,0 +1,40 @@
+.mainWindow {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background-color: aqua;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerStyle {
+  color: rgb(54, 53, 53);
+  margin-bottom: 5vw;
+}
+
+.cardBody {
+  padding: 5px;
+  max-width: 300px;
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.cardData {
+  color: rgb(54, 53, 53);
+}
+
+.addDataStyle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 300px;
+  max-width: 300px;
+  margin-top: 20px;
+}
+
+.addButton {
+  margin-left: 20px;
+}
